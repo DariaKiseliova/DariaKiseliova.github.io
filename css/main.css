@@ -2,26 +2,24 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #464646;
   font-size: 16px;
-  padding: 0;
-  margin: 40px;
-  text-align: justify;
+  width: 900px;
+  margin: 40px auto;
 }
 
 .container {
-  width: 50%;
+  width: 100%;
 }
 
 img {
   width: 100%;
 }
 
-hr {
-  width: 40%;
-  color: #a02842;
+p {
+  text-align: justify;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 33px;
 }
 
 h2 {
@@ -30,12 +28,7 @@ h2 {
 
 .line {
   background-color: #eee;
-  margin: 10px; /* Отступ слева */
-  padding: 25px; /* Расстояние от линии до текста */
+  margin: 10px;
+  padding: 25px;
   font-style: italic;
-}
-
-.aroma {
-  background-color: #eee;
-  width: 100%;
 }
